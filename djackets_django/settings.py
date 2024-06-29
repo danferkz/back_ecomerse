@@ -27,7 +27,14 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-STRIPE_SECRET_KEY = 'sk_test_51HIHiuKBJV2qeWbD4IBpAODack7r7r9LJ0Y65zSFx7jUUwgy2nfKEgQGvorv1p2xp7tgMsJ5N9EW7K1lBdPnFnyK00kdrS27cj'
+#STRIPE_SECRET_KEY = 'sk_test_51HIHiuKBJV2qeWbD4IBpAODack7r7r9LJ0Y65zSFx7jUUwgy2nfKEgQGvorv1p2xp7tgMsJ5N9EW7K1lBdPnFnyK00kdrS27cj'
+
+# settings.py
+# settings.py
+NIUBIZ_USERNAME = 'integraciones@niubiz.com.pe'
+NIUBIZ_PASSWORD = '_7z3@8fF'
+NIUBIZ_SECURITY_URL = 'https://apitestenv.vnforapps.com/api.security/v1/security'
+
 
 # Application definition
 
@@ -49,7 +56,8 @@ INSTALLED_APPS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-   "http://localhost:5173",
+    "http://localhost:5173",
+    "http://localhost:8000",
 ]
 
 MIDDLEWARE = [
