@@ -20,20 +20,20 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'f_)*$6xz#a7k(6ir&u@+tq8h@_t_9%3nr%9g5z4vdp#*a4)a*o'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = []
 
-#STRIPE_SECRET_KEY = 'sk_test_51HIHiuKBJV2qeWbD4IBpAODack7r7r9LJ0Y65zSFx7jUUwgy2nfKEgQGvorv1p2xp7tgMsJ5N9EW7K1lBdPnFnyK00kdrS27cj'
+#STRIPE_SECRET_KEY = ''
 
 # settings.py
 # settings.py
-NIUBIZ_USERNAME = 'integraciones@niubiz.com.pe'
-NIUBIZ_PASSWORD = '_7z3@8fF'
-NIUBIZ_SECURITY_URL = 'https://apitestenv.vnforapps.com/api.security/v1/security'
+NIUBIZ_USERNAME = ''
+NIUBIZ_PASSWORD = ''
+NIUBIZ_SECURITY_URL = ''
 
 
 # Application definition
@@ -100,7 +100,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'tienda',
         'USER': 'root',
-        'PASSWORD': '14CEB00F',
+        'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '3306',
     }
